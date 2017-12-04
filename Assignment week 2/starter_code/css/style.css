@@ -46,14 +46,15 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     /*color: #000;*/
+     /*font-size: 12px;*/
+     /*line-height: 1.4;*/
+     /*font-family: Helvetica, Arial, sans-serif;*/
+     font-family: 'Open Sans', sans-serif;
+     /*background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);*/
+     /*background-size: cover;*/
+     background-color: #f0efef;
 }
-
 
 /******************************************
 /* LAYOUT
@@ -68,17 +69,111 @@ body {
 }
 
 header {
-
+  font-size: 24px;
+  height: 600px;
+  padding: 30px 60px;
+  background-image: url('../images/header_bg.jpg');
+  background-size: cover;
+  color: white;
+  display: block;
 }
 
-footer {
+h1 {
+  color: white;
+  font-style: bold;
+}
 
+h2 {
+  color: white;
+  text-align: center;
+}
+
+.btn-yellow {
+  background-color: #f9e42e;
+  color: #033048;
+  margin: 50px 0 0 500px;
+  font-size: 14px;
+  font-style: bold;
+  border-radius: 5px;
+}
+
+.benefits-section {
+margin-top: 150px;
+padding-left: 50px;
+font-size: 13px;
+height: 1px;
+display:block;
+max-width: 50%;
+}
+
+.benefit {
+  font-size: 20px;
+  color: #033048;
+  font-style: bold;
+}
+
+ul {
+  list-style: disc;
+}
+
+.testimonial {
+  background-image: url('../images/testimonial_bg.jpg');
+  margin-top: 300px;
+  text-align: center;
+  color: white;
+  height: 400px;
+  padding: 120px 60px;
+  font-size: 18px;
+  display: block;
+  font-weight: 100;
+}
+
+.testimonial p {
+  padding-left: 400px;
+  max-width: 69%;
+}
+
+.signup-section {
+  background-color: #f9e42e;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display:block;
+  }
+
+  .btn-blue {
+    padding: 5px;
+    margin: auto 0 0 575px;
+    background-color: #033048;
+    color: white;
+    font-size: 12;
+    border-radius: 5px;
+  }
+
+footer {
+    background-color: #121212;
+    padding: 30px 60px;
+    height: 300px;
+    color: white;
+    text-align: center;
+}
+
+.logo {
+  color: #f9e42e;
+  font-size: 24px;
+  font-style: bold;
+}
+
+footer p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+a {
+  padding-right: 40px;
+  padding-left: 25px;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-
-
 
