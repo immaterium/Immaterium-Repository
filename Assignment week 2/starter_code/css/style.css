@@ -91,10 +91,15 @@ h2 {
 .btn-yellow {
   background-color: #f9e42e;
   color: #033048;
-  margin: 50px 0 0 500px;
   font-size: 14px;
   font-style: bold;
+  font-weight: 500;
   border-radius: 5px;
+  padding: 5px;
+}
+
+.stupid {
+  text-align: center;
 }
 
 .benefits-section {
@@ -117,20 +122,22 @@ ul {
 }
 
 .testimonial {
+  width: 100%;
+  margin: auto;
+  height: 400px;
   background-image: url('../images/testimonial_bg.jpg');
   margin-top: 300px;
   text-align: center;
   color: white;
-  height: 400px;
-  padding: 120px 60px;
-  font-size: 18px;
   display: block;
+  padding-top: 60px;
+  font-size: 18px;
   font-weight: 100;
 }
 
 .testimonial p {
   padding-left: 400px;
-  max-width: 69%;
+  max-width: 80%;
 }
 
 .signup-section {
@@ -138,16 +145,17 @@ ul {
   padding-top: 10px;
   padding-bottom: 10px;
   display:block;
+  text-align: center;
   }
 
-  .btn-blue {
-    padding: 5px;
-    margin: auto 0 0 575px;
-    background-color: #033048;
-    color: white;
-    font-size: 12;
-    border-radius: 5px;
-  }
+.btn-blue {
+  padding: 5px;
+  margin: auto;
+  background-color: #033048;
+  color: white;
+  font-size: 12;
+  border-radius: 5px;
+ }
 
 footer {
     background-color: #121212;
