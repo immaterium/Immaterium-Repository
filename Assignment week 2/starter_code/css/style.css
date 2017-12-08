@@ -78,7 +78,7 @@ body {
 header {
   font-size: 24px;
   height: 600px;
-  padding: 30px 60px;
+  padding: 10px 60px;
   background-image: url('../images/header_bg.jpg');
   background-size: cover;
   color: white;
@@ -88,24 +88,26 @@ header {
 h1 {
   color: white;
   font-style: bold;
-  font-size: 24px;
+  font-size: 50px;
   font-weight: 800;
+  padding-bottom: 10px;
 }
 
 h2 {
   color: white;
   text-align: center;
-  font-size: 24px;
+  font-size: 40px;
   font-weight: 500;
+  padding-bottom:60px;
 }
 
 .btn-yellow {
   background-color: #f9e42e;
   color: #033048;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 800;
   border-radius: 5px;
-  padding: 5px;
+  padding: 10px 30px 10px 30px;
 }
 
 .stupid {
@@ -114,16 +116,16 @@ h2 {
 
 .benefits-section {
 margin-top: 50px;
-margin-bottom: 200px;
+margin-bottom: 100px;
 padding-left: 50px;
-font-size: 13px;
-height: 1px;
+font-size: 18px;
+/*height: 150px;*/
 display:block;
-max-width: 50%;
+max-width: 70%;
 }
 
 .benefit {
-  font-size: 20px;
+  font-size: 30px;
   color: #033048;
   font-weight: 500;
 }
@@ -133,23 +135,26 @@ ul {
 }
 
 .testimonial {
-  max-width: 100%;
-  margin: 0 auto;
-  height: 400px;
+  text-align: center;
+  height: 300px;
   background-image: url('../images/testimonial_bg.jpg');
   background-size: cover;
   text-align: center;
   color: white;
   display: block;
-  padding-top: 60px;
   font-size: 18px;
-  font-weight: 800;
+  padding-top: 100px;
 }
 
 .testimonial p {
-  padding-left: 400px;
-  max-width: 80%;
+  max-width: 70%;
   text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+i {
+  font-style: italic;
 }
 
 .signup-section {
@@ -161,11 +166,11 @@ ul {
   }
 
 .btn-blue {
-  padding: 5px;
+  padding: 10px 30px 10px 30px;
   margin: auto;
   background-color: #033048;
   color: white;
-  font-size: 12px;
+  font-size: 20px;
   border-radius: 5px;
   font-weight: 800;
  }
@@ -176,13 +181,13 @@ footer {
     height: 300px;
     color: white;
     text-align: center;
-    font-size: 9px;
+    font-size: 15px;
     font-weight: 500;
 }
 
 .logo {
   color: #f9e42e;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 800;
 }
 
