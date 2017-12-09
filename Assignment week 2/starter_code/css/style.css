@@ -135,11 +135,9 @@ ul {
 }
 
 .testimonial {
-  text-align: center;
   height: 300px;
   background-image: url('../images/testimonial_bg.jpg');
   background-size: cover;
-  text-align: center;
   color: white;
   display: block;
   font-size: 18px;
@@ -149,7 +147,7 @@ ul {
 .testimonial p {
   max-width: 70%;
   text-align: center;
-  margin: 0 auto;
+  margin: auto;
   padding: 10px;
 }
 
@@ -200,6 +198,11 @@ a {
   padding-right: 40px;
   padding-left: 25px;
 }
+
+/*to centralise elements, standard method use 
+margin: 0 auto;
+display: block;
+*/
 
 /******************************************
 /* ADDITIONAL STYLES
