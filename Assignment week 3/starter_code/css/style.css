@@ -188,9 +188,13 @@ main {
   color: #00224A;
 }
 
+b {
+  font-weight: bolder;
+}
+
 h3 {
   font-size: 25px;
-  font-weight: 1000;
+  font-weight: bolder;
   padding: 25px 0 15px 0;
 }
 
