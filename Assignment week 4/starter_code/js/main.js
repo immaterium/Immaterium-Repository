@@ -57,6 +57,8 @@ $(document).ready(function () {
       $(postExpansion).data('state', 'hidden');
       $(postExpansion).hide();
       $(toggleLink).text('Read more >');
-    };
+    }
+  }
+});
 
 
