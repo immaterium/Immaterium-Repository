@@ -26,7 +26,7 @@ $(document).ready(function () {
 
 //  function revealMoreText() {
 //    console.log('clicked');
-
+// $
 //   // $('#answer-1').slideDown();
 //   $('.hide #learnmoretext').toggle({
 //      'easing': 'swing'
@@ -56,6 +56,23 @@ $(document).ready(function () {
     } else {
       $(postExpansion).data('state', 'hidden');
       $(postExpansion).hide();
+      $(toggleLink).text('Read more >');
+    }
+  }
+
+ $('#show-on-click-2').click(showOnClick2);
+
+    function showOnClick2() {
+    var toggleLink = $('#show-on-click-2');
+    var postExpansion = $(toggleLink).parent().find('.expansion2');
+
+    if ($(postExpansion).data('state') === 'hidden') {
+      $(postExpansion).data('state', 'show');
+      $(postExpansion).slideDown();
+      $(toggleLink).text('Read less <');
+    } else {
+      $(postExpansion).data('state', 'hidden');
+      $(postExpansion).slideUp();
       $(toggleLink).text('Read more >');
     }
   }
