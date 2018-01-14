@@ -25,8 +25,8 @@ $(document).ready(function () {
 //  // var answerIsShown = false;
 
 //  function revealMoreText() {
-//    console.log('clicked');
-// $
+//    console.log('c$licked');
+// 
 //   // $('#answer-1').slideDown();
 //   $('.hide #learnmoretext').toggle({
 //      'easing': 'swing'
@@ -43,19 +43,23 @@ $(document).ready(function () {
     //   answerIsShown = false;
     // }
   
+
   $('#show-on-click').click(showOnClick);
+
+// var state = 'hidden' another way to do it, but not good, too global
 
   function showOnClick() {
     var toggleLink = $('#show-on-click');
     var postExpansion = $(toggleLink).parent().find('.expansion');
 
     if ($(postExpansion).data('state') === 'hidden') {
+      // if state = hidden
       $(postExpansion).data('state', 'show');
       $(postExpansion).show();
       $(toggleLink).text('Read less <');
     } else {
       $(postExpansion).data('state', 'hidden');
-      $(postExpansion).hide();
+      $(postExpansion).hid$e();
       $(toggleLink).text('Read more >');
     }
   }
