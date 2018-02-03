@@ -288,5 +288,92 @@ footer p {
   font-weight: 600;
 }
 
+@media screen and (max-width: 768px) {
+  
+/*  #sidebar: {
+    display: block;
+  }
+
+  #posts: {
+    display: block;
+  }*/
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*nav li {
+  display: block;
+}*/
+
+nav .line{
+  width: 3em;
+  height: .3em;
+  background: white;
+  border-radius: 1em;
+  margin-top: .25em;
+}
+
+nav .line:first-of-type{
+  margin-top:.7em;
+}
+
+  
+/*li a {
+  display: none;
+}*/
+
+/*  header nav li{
+    float: none;
+  }*/
+  
+  header nav li:first-child{
+    display:block;
+    position: absolute;
+    top:.99em;
+    right:1em;
+  }
+
+  ul{
+    height:0;
+    transition:height 1s;
+    overflow: hidden;
+  }
+
+  header nav ul li {
+  display: block;
+  margin: auto;
+  font-size: 24px;
+}
+
+#page-header nav li a{
+  float: left;
+}
+
+/*header {
+  display: block;
+}*/
+
+.slideDown{
+  height:5em;
+}
+
+header nav {
+  float: left;
+  margin-top: 100px;
+}
+
+header {
+  text-align: left;
+}
 
 
+/*header nav a {
+  margin-left: 0px;
+  padding-left: 0px;
+}*/
+
+li {
+  text-align: left;
+}
