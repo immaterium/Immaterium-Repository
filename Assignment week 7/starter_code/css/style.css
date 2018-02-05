@@ -360,13 +360,15 @@ nav .line:first-of-type{
 }
 
 header nav {
-  float: left;
-  margin-top: 100px;
+  float: none;
+  display: block;
+text-align: left;
+/*  margin-top: 100px;*/
 }
 
-header {
+/*header {
   text-align: left;
-}
+}*/
 
 
 /*header nav a {
@@ -374,6 +376,16 @@ header {
   padding-left: 0px;
 }*/
 
-li {
+/*li {
   text-align: left;
+}*/
+
+
+header .logo {
+  color: #fff;
+  float: none;
+}
+
+li a {
+  width: 100%;
 }
