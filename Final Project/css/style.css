@@ -151,6 +151,7 @@ h3 {
   background: url(../images/testimonial_bg.jpg) no-repeat top center #071324;
   padding: 70px 0 70px;
   color: #fff;
+  background-size: cover;
 }
 blockquote {
   font-size: 36px;
@@ -158,7 +159,7 @@ blockquote {
   font-style: italic;
   text-align: center;
   width: 580px;
-  margin: 0 auto;
+  margin: 0 auto 2em auto;
 }
 blockquote span {
   font-weight: 600;
@@ -372,6 +373,10 @@ a:focus {
   text-align: right;
   font-weight: bold;
   cursor: pointer;
+}
+
+iframe {
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
