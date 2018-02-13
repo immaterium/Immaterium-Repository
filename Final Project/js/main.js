@@ -60,9 +60,20 @@ if ($('ul').attr('class')) {
 	$('ul').removeClass($('ul').attr('class'))}
 else {
 	$('ul').addClass('slideDown')
-}
-
-
-  
+  }
 })
-});
+
+// $('#search-icon').click(getJSON);
+// var url = ''
+// function getJSON() {
+// url = 'https://en.wikipedia.org/w/api.php?action=opensearch&search=';
+// $.ajax ({
+//   url: url + SEARCH_STR,
+//   dataType: 'jsonp',
+//   method: 'GET',
+// })
+// }
+
+
+})
+;
