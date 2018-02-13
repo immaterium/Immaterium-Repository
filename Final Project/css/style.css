@@ -96,7 +96,7 @@ header nav ul li a {
 }
 
 #hero {
-  height: 700px;
+  height: 20em;
   background: url(../images/header_bg.jpg) no-repeat top center #131e27;
   padding-top: 32px;
   background-size: cover;
@@ -133,6 +133,8 @@ header nav ul li a {
 }
 #benefits {
   padding: 100px 0 80px;
+  overflow: scroll;
+  height: 15em;
 }
 h3 {
   color: #033048;
@@ -375,9 +377,25 @@ a:focus {
   cursor: pointer;
 }
 
-iframe {
+.video {
   text-align: center;
 }
+
+.map {
+  text-align: center;
+}
+
+#user-feedback {
+  height: 20em;
+  width: 40em;
+}
+
+/*sign up to our newsletter modal
+nice home page
+search bar API
+audio play music*/
+
+
 
 @media screen and (max-width: 768px) {
   
