@@ -102,6 +102,7 @@ header nav ul li a {
   background-size: cover;
 }
 
+
 #hero .logo {
   color: #fff;
 }
@@ -132,9 +133,12 @@ header nav ul li a {
   font-size: 24px;
 }
 #benefits {
-  padding: 100px 0 80px;
+  margin: 0 auto;
   overflow: scroll;
   height: 15em;
+  width: 80%;
+  text-align: center;
+  background-color: beige;
 }
 h3 {
   color: #033048;
