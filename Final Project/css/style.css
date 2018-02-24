@@ -96,8 +96,8 @@ header nav ul li a {
 }
 
 #hero {
-  height: 20em;
-  background: url(../images/header_bg.jpg) no-repeat top center #131e27;
+  height: 25em;
+  background: url(../images/remote.jpg) no-repeat top center #131e27;
   padding-top: 32px;
   background-size: cover;
 }
@@ -350,7 +350,7 @@ label {
 
 .label-radio{
   display: inline-block;
-} 
+}
 
 a:hover,
 a:active,
@@ -444,7 +444,7 @@ audio play music*/
 
 
 @media screen and (max-width: 768px) {
-  
+
 /*  .topnav .search-container {
     float: none;
   }
@@ -457,7 +457,7 @@ audio play music*/
     padding: 14px;
   }
   .topnav input[type=text] {
-    border: 1px solid #ccc;  
+    border: 1px solid #ccc;
   }*/
 
 /*  #sidebar: {
@@ -489,7 +489,7 @@ nav .line:first-of-type{
   margin-top:.7em;
 }
 
-  
+
 /*li a {
   display: none;
 }*/
@@ -497,7 +497,7 @@ nav .line:first-of-type{
 /*  header nav li{
     float: none;
   }*/
-  
+
   header nav li:first-child{
     display:block;
     position: absolute;
@@ -526,7 +526,7 @@ nav .line:first-of-type{
 }*/
 
 .slideDown{
-  height:5em;
+  height:6.5em;
 }
 
 header nav {
@@ -618,4 +618,4 @@ label {
 
 .label-radio{
   display: inline-block;
-} 
+}
